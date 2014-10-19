@@ -11,35 +11,59 @@ background-image:url("images/Stonework.jpg");
 background-size:cover;
 box-shadow:10px 10px 1px 1px;
 }
+.jumbotron h1,p {
+color:white;
+}
 
 .nav{
+background-image:url("images/bg_03.jpg");
+background-position:right;
+background-repeat:no-repeat;
 background-color:white;
 height:100px;
 }
 
 .nav  ul;
 {
+
 float:right;
 }
 
 .nav li
 {
 display:inline;
-background-color:green;
 height:100px;
 width:100px;
 }
 
 .butt {
-    border: 1px outset green;
-    background-color: lightGreen;
+    border: none;
+    background-color:transparent;
     height:100px;
     width:100px;
     cursor:pointer;
-	margin-left:-3px
+	color:white;
+	font-size:25px;
 }
 
 .butt:hover {
-   background-color: Green;
+    border: 1px outset green;
     color:white;
+}
+
+.nav .thumbnail
+{
+background-color:white;
+height:100px;
+width:300px;
+border:none;
+}
+
+
+.thumbnail
+{
+background-color:blue;
+height:100px;
+width:300px;
+border:none;
 }
